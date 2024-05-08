@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header_section {
+    background-color: #363535;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header_section h1 {
+    margin: 0;
+}
+
+.body_section {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    /* display: flex; */
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(12, 12, 12, 0.3);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.card h4 {
+    margin-top: 0;
+}
+
+.card h5 {
+    margin: 5px 0;
+}
+
+.card .address, .card .company {
+    margin-top: 15px;
+}
+
+.card .address h4, .card .company h5 {
+    margin-bottom: 5px;
+}
+
+.geo {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
